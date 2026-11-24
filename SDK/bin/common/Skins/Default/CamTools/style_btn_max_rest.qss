@@ -1,0 +1,20 @@
+/* ===== 可变样式 ===== */
+QWidget[max="true"] TitleBar QToolButton#btnMax {
+	border-image: url("Skins/Default/CamTools/Parts_Btn_Window_Reduction_Normal.png");
+}
+QWidget[max="true"] TitleBar QToolButton#btnMax:hover {
+	border-image: url("Skins/Default/CamTools/Parts_Btn_Window_Reduction_Hover.png");
+}
+QWidget[max="true"] TitleBar QToolButton#btnMax:pressed {
+	border-image: url("Skins/Default/CamTools/Parts_Btn_Window_Reduction_Pressed.png");
+}
+
+QWidget[max="false"] TitleBar QToolButton#btnMax {
+	border-image: url("Skins/Default/CamTools/Parts_Btn_Window_Maximum_Normal.png");
+}
+QWidget[max="false"] TitleBar QToolButton#btnMax:hover {
+	border-image: url("Skins/Default/CamTools/Parts_Btn_Window_Maximum_Hover.png");
+}
+QWidget[max="false"] TitleBar QToolButton#btnMax:pressed {
+	border-image: url("Skins/Default/CamTools/Parts_Btn_Window_Maximum_Pressed.png");
+}

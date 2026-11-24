@@ -1,0 +1,22 @@
+/* ===== 通用样式 ===== */
+
+* {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	margin:
+}
+
+QMenu::item::normal{
+    min-height: 20px;
+    padding: 0px 15px 0px 37px;
+    border: 1px solid transparent;
+}
+
+QMenu::item:selected {
+    background: #CDCDCD;
+    border: 1px solid #D7E2F3;
+}
+
+QMenu::indicator {
+    left: 5px;
+} 
